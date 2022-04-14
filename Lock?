@@ -1,7 +1,7 @@
 from webbot import Browser
-web = Browser()
+web = Admin()
 web.go_to('google.com')
-web.type('')  
-# or web.press(web.Key.SHIFT + 'hello its me')
+web.type("")  
+# or web.press(web.Key.SHIFT + 'Block')
 web.press(web.Lock.ENTER)
 #!/usr/bin/env python3
